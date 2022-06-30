@@ -1,0 +1,22 @@
+// custom variables
+$new-gray-600: #777777;
+$new-gray-100: #f1f1f1;
+$dark-blue: #0a2640;
+$green-900: #051b11;
+$teal-900: #06281e;
+$new-success: #65e4a3;
+
+$gray-600: $new-gray-600;
+$gray-100: $new-gray-100;
+$primary: $dark-blue;
+$success: $new-success;
+
+$input-btn-focus-width: 0;
+$list-group-border-color: transparent;
+
+// import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+input:focus {
+  outline: none;
+}
